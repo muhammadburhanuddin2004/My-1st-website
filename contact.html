@@ -5,64 +5,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 
 <body>
-        <div class="top">
+    <div class="top">
         <div class="logo"> <img src="Screenshot_1.bmp" alt="">
-            <h2>Royal II Cricket Club </h2>
         </div>
+        <h2>Royal II Cricket Club </h2>
         <button id="book">Schedule a Match</button>
     </div>
-    <nav>
-        <ul>
-            <li>Home</li>
-            <li>Matches</li>
-            <li>Players</li>
-            <li>Contact</li>
-        </ul>
-    </nav>
-    <div class="form">
+    <div class="content">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li> <a href="matches.html">Matches</a></li>
+                <li> <a href="players.html">Players</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
         <h2>Request to join the team </h2>
-        <fieldset>
-            <legend>Add a Player</legend>
+        <div class="form">
             <form action="#" method="get">
-                <label for="name">Name</label>
-                <input type="text" name="" id="name">
-                <label for="contact">Contact No.</label>
-                <input type="text" name="" id="contact">
-                <label for="role">Role</label>
-                <select name="" id="role">
-                    <option value="RBatsman">Right-handed Batsman</option>
-                    <option value="LBatsman">Left-handed Batsman</option>
-                    <option value="Spinner_Bowler">Spinner Bowler</option>
-                    <option value="Fast_bowler">Fast Bowler</option>
-                    <option value="medium_fast">Medium Fast bowler</option>
-                    <option value="All-rounderS">All-rounder (Spin)</option>
-                    <option value="All-rounderS">All-rounder (Fast)</option>
-                </select>
-                <label for="time">Availbe time: </label>
-                <label for="fridayM">Friday morning</label>
-                <input type="checkbox" name="fridayM" id="fridayM">
-                <label for="fridayA">Friday Afternoon</label>
-                <input type="checkbox" name="fridayA" id="fridayA">
-                <label for="sundayM">Sunday morning</label>
-                <input type="checkbox" name="sundayM" id="sundayM">
-                <label for="sundayA">Sunday afternoon</label>
-                <input type="checkbox" name="sundayA" id="sundayA">
-                <label for="comment">Tell us more about U:</label>
-                <textarea name="" id="comment"></textarea>
-                <button type="submit">Submit </button>
+                <fieldset>
+                    <legend>Add a Player</legend>
+
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" name="" id="name">
+                    </div>
+
+                    <div>
+                        <label for="contact">Contact No.</label>
+                        <input type="text" name="" id="contact">
+                    </div>
+
+                    <div>
+                        <label for="role">Role</label>
+                        <select name="" id="role">
+                            <option value="RBatsman">Right-handed Batsman</option>
+                            <option value="LBatsman">Left-handed Batsman</option>
+                            <option value="Spinner_Bowler">Spinner Bowler</option>
+                            <option value="Fast_bowler">Fast Bowler</option>
+                            <option value="medium_fast">Medium Fast bowler</option>
+                            <option value="All-rounderS">All-rounder (Spin)</option>
+                            <option value="All-rounderS">All-rounder (Fast)</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="time">Availbe time: </label>
+                        <label for="fridayM">Friday morning</label>
+                        <input type="checkbox" name="fridayM" id="fridayM">
+                        <label for="fridayA">Friday Afternoon</label>
+                        <input type="checkbox" name="fridayA" id="fridayA">
+                        <label for="sundayM">Sunday morning</label>
+                        <input type="checkbox" name="sundayM" id="sundayM">
+                        <label for="sundayA">Sunday afternoon</label>
+                        <input type="checkbox" name="sundayA" id="sundayA">
+                    </div>
+
+                    <div>
+                        <label for="comment">Tell us more about U:</label>
+                        <textarea cols="80" id="comment"></textarea>
+                    </div>
+
+                    <div>
+                        <button type="submit">Submit </button>
+                    </div>
             </form>
-        </fieldset>
+            </fieldset>
+        </div>
+        <div class="contact">
+            <h3>Contact us on:</h3>
+            <div>
+                <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+
+            </div>
+        </div>
     </div>
-    <div class="contact">
-        <h3>Contact us on</h3>
-        <a href="">Facebook</a>
-        <a href="">Insta</a>
-        <a href="">WhatsApp</a>
-        <a href="">Tiktok</a>
-    </div>
+    <footer>
+        <h3>All rights reserved 2026</h3>
+    </footer>
 </body>
 
 </html>

@@ -1,0 +1,250 @@
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Oswald", "san-serif";
+}
+
+.logo>img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color: #11413c;
+}
+
+.top h2 {
+    margin: 0;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    background-color: #11413c;
+    color: antiquewhite;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 10px;
+
+}
+
+#book {
+    height: 40px;
+    align-self: center;
+    margin-right: 20px;
+    cursor: pointer;
+    background-color: #6B9AC4;
+    color: antiquewhite;
+    border-radius: 5px;
+    border: none;
+}
+
+#book:hover {
+    transform: scale(1.2);
+}
+
+.content {
+    margin: 10px 60px 10px 60px;
+
+}
+
+nav {
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    font-family: "Oswald";
+    background-color: #11413c;
+    height: 80px;
+    border-radius: 10px;
+}
+
+
+nav ul li:hover {
+    background-color: antiquewhite;
+    color: #11413c;
+    border-radius: 10px;
+
+}
+
+nav ul li a {
+    transition: color 0.5s ease;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px 50px;
+}
+
+nav ul li:hover a {
+    color: #11413c;
+    /* Changes text to white on hover */
+
+}
+
+section {
+    font-family: "oswald";
+    font-size: 20px;
+    color: #11413c;
+}
+
+.team>img {
+    width: 70%;
+    height: 80%;
+}
+
+.team {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team img:nth-child(2) {
+    border: 2px solid;
+    height: 30%;
+    width: 25%;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    background-color: #11413c;
+    margin: 0PX;
+    padding: 5px 10px;
+    color: antiquewhite;
+}
+
+.match-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.match img {
+    width: 620px;
+    height: 388px;
+}
+
+.match {
+    border: 2px solid #11413c;
+}
+
+.match h3 {
+    text-align: center;
+}
+
+ul li {
+    font-family: "oswald";
+}
+
+.squad>ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.squad>h1 {
+    text-align: center;
+}
+
+.allplayers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+
+}
+
+.profile img {
+    width: 260px;
+    height: 300px;
+}
+
+p {
+    font-family: "Oswald";
+}
+
+.profile {
+    display: flex;
+    border: 2px solid #11413c;
+    justify-content: space-between;
+    width: 490px;
+    height: 305px;
+    box-sizing: border-box;
+}
+
+.desc {
+    padding-top: 40px;
+    padding-right: 20px;
+}
+
+/* .form form {
+    display: flex;
+    flex-direction: column;
+    background-color: #6B9AC4;
+} */
+.form {
+    display: flex;
+    justify-content: center;
+    font-family: "Oswald";
+}
+
+form div {
+    padding: 5px;
+}
+
+.form div:nth-child(6) {
+    display: flex;
+}
+
+div button{
+    font-family: "Oswald";
+    border: none;
+    background-color: #11413c;
+    color: antiquewhite;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    transition: transform 0.4s;
+}
+div button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.form div:nth-child(7) {
+
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #11413c; */
+}
+.contact a i {
+    font-size: 30px;
+    padding: 10px;
+    transition: transform 0.4s;
+
+}
+i:hover {
+    color:antiquewhite;
+    transform: scale(1.2);
+    background-color:#11413c;
+    border-radius: 10px;
+    /* Adds a nice pop-up effect */
+}
